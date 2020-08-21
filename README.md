@@ -1,6 +1,7 @@
 # Intro_to_Callable_API_Endpoints
 Introduction to the uses and implementation of custom API endpoints within the Okta Workflows feature
 
+
 ## <span style="text-decoration:underline;">Overview</span>
 
 The Okta Workflow feature is a powerful tool to implement custom business logic. A popular integration is instead of creating an object directly into Okta (i.e. user, application or group ) with the Okta REST APIs, is to send the object request along with it’s JSON payload to Workflows. Then custom business logic such as checking existing objects in Okta or reaching out to a 3rd party to verify data can be accomplished. Based on the results of the dynamic logic, decisions can be made by Workflows providing distinct processing options.
@@ -42,7 +43,7 @@ The easiest way to test a flow with an API Action event is to use POSTMAN
     3. In the Headers section add the following key value pairs
         1. Accept: application/json
         2. Content-Type: application/json
-        3. X-api-client-token: &lt;value copied from the “Client Token” config>.
+        3. x-api-client-token: &lt;value copied from the “Client Token” config>.
     4. In the Body Section add the following payload
         4. Choose ‘raw’ data option, insert curly braces for JSON, add the following key value pairs.
         5. name: bookmark
