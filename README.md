@@ -1,5 +1,4 @@
-# Initiate Flow With API Endpoint 
-Introduction to the uses and implementation of custom API endpoints within the Okta Workflows feature
+# **Initiate Flow With API Endpoint** 
 
 
 ## <span style="text-decoration:underline;">Overview</span>
@@ -10,7 +9,8 @@ The first step for implementation is creating a Parent Flow that accepts an API 
 
 We shall create a Bookmark Application integration for a new partner company that we are onboarding. Before creating the application object, Workflows will check for an existing object with the same value then gather existing application Id or create application object and report appId and all  results in the API Action response.
 
-<span style="text-decoration:underline;">Before you get Started / Prerequisites</span>
+
+## Before you get Started / Prerequisites
 
 Before you get started, here are the things you’ll need:
 
@@ -18,7 +18,8 @@ Before you get started, here are the things you’ll need:
 
 *   Access to an Okta tenant with Okta Workflows enabled for your org 
 
-<span style="text-decoration:underline;">Setup Steps</span>
+
+## Setup Steps
 
 
 
@@ -31,7 +32,8 @@ Before you get started, here are the things you’ll need:
     5. These values shall be used by the calling party to initiate the operation.
 3. Ensure that the flow is turned on.
 
-<span style="text-decoration:underline;">Testing this Flow</span>
+
+## Testing this Flow
 
 The easiest way to test a flow with an API Action event is to use POSTMAN
 
@@ -56,7 +58,8 @@ The easiest way to test a flow with an API Action event is to use POSTMAN
 4. Go to the Okta tenant Admin UI-> Applications -> Applications
     5. You should an application with the label “Discovery_test_app” 
 
-<span style="text-decoration:underline;">Limitations & Known Issues</span>
+
+## Limitations & Known Issues
 
 
 
